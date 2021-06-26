@@ -1,0 +1,30 @@
+<!DOCTYPE html>      <!--用戶使用功能後顯示在外面的-->
+<html>
+  <head>  <!--載入其他東西或者說明網頁給瀏覽器看(譬如關鍵字SEO或是網頁標題或是網頁說明)-->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css"> <!--rel:鏈結一個樣式表(button.css).href:樣式表路徑(名字)-->
+  </head>
+  <body>
+    <div id="tab-all">
+      <ul class="tab-title" >
+        <li><a href="#tab01">批次排版器</a></li>
+        <li><a href="#tab02">貨單產生器</a></li>
+      </ul>
+      <div id="tab01" class="tab-inner">
+        <center>
+          <p id="title01">批次排版器</p>
+          <p>自動判定規則</p>
+          <button type="button" id="changeTable">排版</button>
+          <p>貨單明細</p>
+        </center>
+        <button id="list-type">7-11</button>
+      </div>
+      <div id="tab02" class="tab-inner">
+        <p>tab02的內容</p>
+      </div>
+    </div>
+  </body>
+  <script src="jquery.js"></script>
+  <script scr="popup.js"></script>
+  <script src="test.js"></script>
+</html>

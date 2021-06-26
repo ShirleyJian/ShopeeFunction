@@ -1,0 +1,76 @@
+#changeTable {
+    height: 35px;
+    width: 50px;
+    outline: none;
+    margin: 2px;
+    border: none;
+    color: #ffffff;
+    background-color: #2894FF;
+    border-radius: 2px;
+    font-family: '微軟正黑體';
+    font-size: 15px;
+}
+#list-type{
+    position: absolute;
+    left: 160px;
+    bottom: 10px;
+}
+
+#title01 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2px;
+}
+
+#tab-all {
+    width: 250px;
+    height: 180px;
+    background-color: #F0F0F0;
+    border: 1px #BCBCBC solid;
+}
+
+#tab-all > ul {
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+.tab-title {
+    list-style: none;
+}
+
+#tab-all > ul > li {
+    display: inline-block;
+    vertical-align: top;
+    font-family: '微軟正黑體';
+    margin: 0 -1px -1px 0;
+    border: 1px solid #BCBCBC;
+    height: 25px;
+    line-height: 24px;
+    background: #cdcdcd;
+    padding: 0 15px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#tab-all > ul > li a {
+    color: #2894FF;
+    text-decoration: none;
+}
+
+#tab-all > ul > li.active {
+    color: #000;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+}
+
+#tab-all > .tab-inner {
+    clear: both;
+    color: #000;
+    background: #fff
+}
+
+.tab-inner {
+    padding: 15px;
+    height: 100px;
+}
